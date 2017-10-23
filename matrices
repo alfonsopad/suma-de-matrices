@@ -4,8 +4,8 @@
 
 int main(int argc, char** argv) {
 	
-	int w , x , y , z;
-    char A[2][2], B[2][2] ,C[2][2];
+	int w , x , y , z, a, b, c, d;
+    char A[3][3], B[3][3] ,C[3][3];
 	
     printf("DAME LOS VALORES DE LA PRIMERA MATRIZ \n");
 	for(w=1;w<=2;w++)
@@ -16,5 +16,25 @@ int main(int argc, char** argv) {
 		scanf("%i", &A[w][x]);	
 		}
 	}
+	
+	printf("DAME LOS VALORES DE LA segunda MATRIZ \n");
+	for(y=1;y<=2;y++)
+	{
+		for(z=1;z<=2;z++)
+		{
+		printf("dame los valores para B[%d][%d]:",w,x);
+		scanf("%i", &B[w][x]);	
+		}
+	}
+	
+	for(c=1;c<=2;c++);
+	{
+		for(d=1;d<=;d++);
+		{
+			a=w+y;
+			print("C")
+		}
+	}
+	
 	return 0;
-}
+	
